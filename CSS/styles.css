@@ -27,34 +27,29 @@ body, h1, h2, p {
 /* Caja de dificultad */
 .difficulty-box {
     flex: 1 1 calc(30% - 20px);
-    max-width: calc(30% - 20px);
+    max-width: calc(50% - 20px);
     padding: 20px;
     border: 2px solid #ccc;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: left;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 /* Estilos por dificultad */
-#peaceful {
+#anime{
     background-color: #e0f7fa; /* Azul claro */
     border-color: #00bcd4;
 }
 
-#easy {
+#manga {
     background-color: #dcedc8; /* Verde claro */
     border-color: #8bc34a;
 }
 
-#normal {
+#mercancia {
     background-color: #fff9c4; /* Amarillo claro */
     border-color: #fbc02d;
-}
-
-#hard {
-    background-color: rgba(255, 17, 0, 0.5);; /* Rojo claro */
-    border-color: #c02b20;
 }
 
 /* Pseudoclases */
@@ -74,6 +69,7 @@ h2 {
 
 p {
     color: #555;
+    margin-top: 10px;
 }
 
 .info {
@@ -87,4 +83,17 @@ p {
         flex: 1 1 100%;
         max-width: 100%;
     }
+}
+
+.button {
+    margin-top: 10px;
+    width: 100px;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(9, 74, 187, 0.869);
+    color: #fff;
 }
