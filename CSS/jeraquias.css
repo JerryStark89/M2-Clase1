@@ -1,0 +1,29 @@
+.class-titulo{
+    color: blue;
+}
+
+#title{
+    color: rgb(200, 10, 10);
+}
+
+h1{
+    color: blueviolet;
+}
+
+.clas-h2{
+    color: aqua;
+}
+
+#subtitulo{
+    color: black;
+}
+
+h2{
+    color: chocolate !important;
+}
+
+div{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
