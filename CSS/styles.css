@@ -5,6 +5,38 @@ body, h1, h2, p {
     font-family: Arial, sans-serif;
 }
 
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.navbar a {
+    color:#ffffff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.navbar a:hover{
+    background-color: #37364b;
+    transition: 0.2s ease-in-out;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Header */
 .header {
     text-align: center;
@@ -112,3 +144,14 @@ p {
     background-color: rgba(93, 8, 135, 0.762);
     color: #fff;
 }
+
+.modal {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 2000; /* Alto valor para estar encima de todo */
+  }
