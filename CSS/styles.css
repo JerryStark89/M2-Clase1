@@ -155,3 +155,16 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 2000; /* Alto valor para estar encima de todo */
   }
+
+  @media (max-width: 600px) {
+    body {
+      font-size: 16px; /* Tamaño de fuente adecuado para pantallas pequeñas */
+    }
+    .navbar {
+      flex-direction: column; /* Organiza la navegación verticalmente */
+      align-items: center;
+    }
+    .sidebar {
+      display: none; /* Oculta la barra lateral en móviles para evitar el desorden */
+    }
+  }
